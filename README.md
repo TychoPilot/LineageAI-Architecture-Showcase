@@ -53,5 +53,5 @@ Standard Unreal save games cannot handle the data footprint of thousands of livi
 ### 4. Dynamic AI via Local LLMs
 To give characters dynamic personalities and goals, the plugin connects to local LLMs (like Ollama) via custom HTTP requests. Because AI text generation takes time, I built an asynchronous priority job queue (`LineageAILLMSubsystem`). The game continues to run smoothly at high frame rates while the AI "thinks" in the background, seamlessly delivering new goals and life events back to the NPCs once ready.
 
-## Showcase Video
+## Showcase Video (Demo available soon)
 [![Watch the showcase Video](https://img.youtube.com/vi/PmQbxvqQ0ow/maxresdefault.jpg)](https://www.youtube.com/watch?v=PmQbxvqQ0ow)
